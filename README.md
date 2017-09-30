@@ -12,6 +12,31 @@ Instructions
 Just upload the contents in the upload directory. And install the payment
 gateway through the admin interface.
 
+If you are not clear then follow these instructions to upload and install.
+
+1. upload opencart_ezcash_ipg-master\upload\admin\controller\extension\payment\ez_cash.php file into 
+<your open cart installation>/admin/controller/extension/payment/ez_cash.php 
+
+eg: https://files.000webhost.com/public_html/admin/controller/extension/payment/ez_cash.php 
+
+
+2. upload opencart_ezcash_ipg-master\upload\admin\language\en-gb\extension\payment\ez_cash.php file into
+
+ <your open cart installation>/admin/language/en-gb/extension/payment/ez_cash.php
+
+...
+
+same way upload the files inside model,view folders into your open cart installation.
+
+once you completed the files in admin folder then you need to upload the files inside catalog folder also.
+They need to be uploaded to  <your open cart installation>/catalog....
+
+eg: https://files.000webhost.com/public_html/catalog/controller/extension/payment/ez_cash.php 
+
+
+After that Go to your admin panel and on the left menu click Extensions>Extensions and select the Payments from the "Choose the extension type Drop" down menu.
+Now the ez Cash should be listed in the Payments list. Now you can click Install button and then edit button to enable.
+
  
 
 Test Mode
